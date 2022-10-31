@@ -6,7 +6,7 @@ import SideBar from "../Components/Sidebar";
 
 const Trending = async () => {
   const res = await fetch(
-    "https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&regionCode=in&maxResults=24&key=AIzaSyCbv-a-BvGpNR_8VxG5qapH5tt6REYKv0E"
+    "https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&regionCode=in&maxResults=24&key=AIzaSyBqRSgqiC4exIS1hzBXVkRuZx-TjV8xOpU"
   );
 
   const data = await res.json();

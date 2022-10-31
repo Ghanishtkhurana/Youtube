@@ -39,7 +39,7 @@ import CloseIcon from "@mui/icons-material/Close";
 
 const getData = async (value) => {
   const res = await fetch(
-    `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=8&q=${value}&key=AIzaSyCbv-a-BvGpNR_8VxG5qapH5tt6REYKv0E`
+    `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=8&q=${value}&key=AIzaSyBqRSgqiC4exIS1hzBXVkRuZx-TjV8xOpU`
   );
 
   const data = await res.json();

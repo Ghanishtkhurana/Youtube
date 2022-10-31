@@ -10,7 +10,7 @@ import pfp from "./pfp.json";
 
 const Trending = async () => {
   const res = await fetch(
-    "https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&regionCode=in&maxResults=24&key=AIzaSyCrZrTfT3Sf0gk2cwxmjl9slRPvLGq-00Y"
+    "https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&regionCode=in&maxResults=24&key=AIzaSyBqRSgqiC4exIS1hzBXVkRuZx-TjV8xOpU"
   );
 
   const data = await res.json();
