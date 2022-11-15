@@ -44,6 +44,7 @@
 .suggest{
   overflow: hidden;
   overflow-y: scroll;
+  margin-left: 15px;
 }
 .suggest::-webkit-scrollbar{
   display: none;

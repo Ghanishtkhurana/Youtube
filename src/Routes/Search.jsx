@@ -23,14 +23,14 @@ function Search() {
       {cart.map((user, i) => {
         return (
           <Link to={`/video/${user.id.videoId}`}>
-          <Flex key={i} >
+          <Flex key={i} ml={{base:"40px",sm:0,md:0,lg:0}} minWidth='max-content'>
             <Box mr={5}>
               <Image
                 borderRadius={10}
                 objectFit={"cover"}
                 src={user.snippet.thumbnails.high.url}
-                h={168}
-                w={300}
+                h={{base:90,sm:168,md:168,lg:168}}
+                w={{base:"430px",sm:300,md:300,lg:300}}
               />
             </Box>
             <Box width={600}>
